@@ -1,4 +1,8 @@
+let arr = [];
 function getFormvalue() {
-    //Write your code here
+	var a = document.getElementById("firstname").value;
+	var b = document.getElementById("lastname").value;
+
+	alert(a + " " + b);
 
 }
